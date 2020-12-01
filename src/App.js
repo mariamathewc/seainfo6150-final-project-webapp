@@ -19,25 +19,7 @@ const externalContent = {
 function App() {
     return (
         <>
-            <header>
-                <nav>
-                    <ul>
-                        {/* these links should show you how to connect up a link to a specific route */}
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/foo">Foo</Link>
-                        </li>
-                        <li>
-                            <Link to="/bar/hats/sombrero">Bar</Link>
-                        </li>
-                        <li>
-                            <Link to="/baz">Baz</Link>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+
             {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
             <Switch>
