@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, Fragment } from "react";
 import { Switch, Route, Link } from "react-router-dom";
 
 import { isEmpty } from "lodash";
@@ -19,6 +19,11 @@ import ProductCheckout from './components/Products/ProductCheckout.jsx';
 import ProductShipping from './components/Products/ProductShipping.jsx';
 import ThankYou from './components/Products/ThankYou.jsx';
 
+
+import Foo from "./Foo/Foo.jsx";
+import Bar from "./Bar/Bar.jsx";
+import Baz from "./Baz/Baz.jsx";
+import Error from "./Error/Error.jsx";
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
 const externalContent = {
