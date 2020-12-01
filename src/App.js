@@ -57,7 +57,29 @@ function App() {
             <NavBar data={fetchedData} />
             <Switch>
                 <Route path="/" exact component={Home} />
+                <Route exact path="/login"><Login /></Route>
+                <Route exact path="/about"><About /></Route>
+                <Route exact path="/contacts"><Contacts /></Route>
+                <Route exact path="/account"><Account /></Route>
 
+                <Route path='/campgrounds' exact component={Campgrounds} />
+                <Route exact path="/spring"><CampCollections /></Route>
+                <Route exact path="/summer"><CampCollections /></Route>
+                <Route exact path="/autumn"><CampCollections /></Route>
+                <Route exact path="/winter"><CampCollections /></Route>
+                <Route exact path="/snow"><CampCollections /></Route>
+                <Route exact path="/campdetails"><CampDetails /></Route>
+
+                <Route exact path="/products"><Products /></Route>
+                <Route exact path="/tents"><ProductCollections /></Route>
+                <Route exact path="/lights"><ProductCollections /></Route>
+                <Route exact path="/sleeping_gear"><ProductCollections /></Route>
+                <Route exact path="/packs_and_bags"><ProductCollections /></Route>
+                <Route exact path="/food_processing"><ProductCollections /></Route>
+                <Route exact path="/productdetails"><ProductDetails /></Route>
+                <Route exact path="/checkout"><ProductCheckout /></Route>
+                <Route exact path="/shipping"><ProductShipping /></Route>
+                <Route exact path="/thankyou"><ThankYou /></Route>
 
                 <Route component={NoMatch} />
             </Switch>
