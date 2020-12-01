@@ -1,0 +1,40 @@
+
+
+.container {
+    background: url(../images/Campgrounds.jpg) no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 1.7em;
+    padding: 12.5% 20%;
+    color: white;
+}
+
+.text > h2 {
+    color: #0d401e;
+    padding-bottom: 8%;
+    top: 0px;
+    text-align: center;
+}
+.listing {
+    list-style-type: none;
+}
+
+.formating {
+    font-size: 35px;
+    border-radius: 30px;
+    color: white;
+    padding: .1em .2em .1em;
+    position: center;
+    text-align: center;
+}
+
+.links {
+    color: #0d401e;
+}
+
+    .formating:hover {
+        background-color: lightskyblue;
+        width: 55%;
+        margin-left: 23%;
+    }

@@ -1,0 +1,56 @@
+.cover {
+    background: url(../../images/cover.jpg) no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10.5% 20%;
+    color: red;
+}
+
+    .cover > h2 {
+        color: #000;
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+
+.textformat {
+    padding-top: 5em;
+    font-size: 25px;
+    color: saddlebrown;
+    padding-top: 30px;
+    padding-bottom:30px;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 0 20% 0;
+    gap: 20px;
+}
+
+@media (min-width: 1000px) {
+    .container {
+       
+        font-size: .75em;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .container {
+        
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        
+        font-size: 0.9em;
+    }
+}

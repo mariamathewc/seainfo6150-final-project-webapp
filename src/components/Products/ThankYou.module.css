@@ -1,0 +1,14 @@
+.row {
+    background: #5a7d72;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 24% 20%;
+}
+
+.texts {
+    position: center;
+    text-align: center;
+    color: white;
+
+}

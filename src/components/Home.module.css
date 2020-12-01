@@ -1,0 +1,33 @@
+
+
+
+/*setting background image at center fixed position*/
+.container {
+    background: url(../images/Homepage.jpg) no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 20% 22%;
+    text-align: center;
+    color: white;
+}
+
+/*setting text at center fixed position*/
+.home {
+    position: center;
+    text-align: center;
+    color: white;
+}
+
+
+
+.footer {
+    
+    float: left;
+    list-style-type: none;
+    padding: 25% 15% 50% 0%;
+    color: white;
+}
+
+
+/*padding: 80px 30px 50px 0px;*/
