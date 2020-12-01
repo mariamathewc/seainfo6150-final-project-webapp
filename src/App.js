@@ -20,10 +20,8 @@ import ProductShipping from './components/Products/ProductShipping.jsx';
 import ThankYou from './components/Products/ThankYou.jsx';
 
 
-import Foo from "./Foo/Foo.jsx";
-import Bar from "./Bar/Bar.jsx";
-import Baz from "./Baz/Baz.jsx";
-import Error from "./Error/Error.jsx";
+
+
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
 const externalContent = {
@@ -59,26 +57,9 @@ function App() {
             <NavBar data={fetchedData} />
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/foo" exact component={Foo} />
-                {/* passing parameters via a route path */}
-                <Route
-                    path="/bar/:categoryId/:productId"
-                    exact
-                    render={({ match }) => (
-                        // getting the parameters from the url and passing
-                        // down to the component as props
-                        <Bar
-                            categoryId={match.params.categoryId}
-                            productId={match.params.productId}
-                        />
-                    )}
-                />
-                <Route
-                    path="/baz"
-                    exact
-                    render={() => <Baz content={externalContent} />}
-                />
-                <Route component={Error} />
+
+
+                <Route component={NoMatch} />
             </Switch>
         </>
     );
