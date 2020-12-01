@@ -68,7 +68,8 @@ function App() {
                         <Route exact path="/checkout"><ProductCheckout /></Route>
                         <Route exact path="/shipping"><ProductShipping /></Route>
                         <Route exact path="/thankyou"><ThankYou /></Route>
-                        <NoMatch />
+                        <Route component={NoMatch} />
+                        
                     </Switch>
                 </Fragment>
             </div>
