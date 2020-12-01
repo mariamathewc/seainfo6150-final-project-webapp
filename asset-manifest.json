@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.js": "/seainfo6150-final-project-webapp/static/js/main.3514086a.chunk.js",
-    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.3514086a.chunk.js.map",
+    "main.css": "/seainfo6150-final-project-webapp/static/css/main.dc109e2b.chunk.css",
+    "main.js": "/seainfo6150-final-project-webapp/static/js/main.f0821715.chunk.js",
+    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.f0821715.chunk.js.map",
     "runtime~main.js": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js",
     "runtime~main.js.map": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js.map",
-    "static/js/2.fc54e8b9.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.fc54e8b9.chunk.js",
-    "static/js/2.fc54e8b9.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.fc54e8b9.chunk.js.map",
+    "static/js/2.8525507b.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.8525507b.chunk.js",
+    "static/js/2.8525507b.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.8525507b.chunk.js.map",
     "index.html": "/seainfo6150-final-project-webapp/index.html",
-    "precache-manifest.5fd22379eebe5b9546e59f843762ce62.js": "/seainfo6150-final-project-webapp/precache-manifest.5fd22379eebe5b9546e59f843762ce62.js",
+    "precache-manifest.7e73098df191a0ff3e393549fa799dd5.js": "/seainfo6150-final-project-webapp/precache-manifest.7e73098df191a0ff3e393549fa799dd5.js",
     "service-worker.js": "/seainfo6150-final-project-webapp/service-worker.js",
-    "static/media/treefrog.jpg": "/seainfo6150-final-project-webapp/static/media/treefrog.52b16bf8.jpg"
+    "static/css/main.dc109e2b.chunk.css.map": "/seainfo6150-final-project-webapp/static/css/main.dc109e2b.chunk.css.map",
+    "static/media/Products.module.css": "/seainfo6150-final-project-webapp/static/media/Campgrounds.1c6b87d5.jpg",
+    "static/media/Homepage.jpg": "/seainfo6150-final-project-webapp/static/media/Homepage.295e2553.jpg",
+    "static/media/business1.jpg": "/seainfo6150-final-project-webapp/static/media/business1.6962c271.jpg",
+    "static/media/business3.jpg": "/seainfo6150-final-project-webapp/static/media/business3.72274ad0.jpg",
+    "static/media/business4.jpg": "/seainfo6150-final-project-webapp/static/media/business4.46104736.jpg",
+    "static/media/ProductCollections.module.css": "/seainfo6150-final-project-webapp/static/media/cover.3a9140d0.jpg",
+    "static/media/error-404.png": "/seainfo6150-final-project-webapp/static/media/error-404.43aa975e.png",
+    "static/media/snow.jpg": "/seainfo6150-final-project-webapp/static/media/snow.db3aa6e9.jpg",
+    "static/media/winter.jpg": "/seainfo6150-final-project-webapp/static/media/winter.3a3e5d3a.jpg"
   }
 }
