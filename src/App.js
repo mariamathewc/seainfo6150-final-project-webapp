@@ -43,7 +43,7 @@ function App() {
                 <Fragment >
                     <NavBar data={fetchedData} />
                     <Switch>
-
+                        <Route path="/" exact component={Home} />
                         <Route path='/' exact component={Home} />
                         <Route exact path="/login"><Login /></Route>
                         <Route exact path="/about"><About /></Route>
