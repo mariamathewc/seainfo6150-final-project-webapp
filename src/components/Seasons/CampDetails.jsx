@@ -17,6 +17,7 @@ const CampDetails = (props) => {
             <ul className={styles.list} >
                 {location.state.details.popularspots.map((spot) => (
                     <div key={spot.name}>
+                        <br />
                         <h3> {spot.name}</h3>
                         <p> {spot.desc}</p>
                         </div>

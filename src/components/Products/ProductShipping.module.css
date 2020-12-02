@@ -10,10 +10,11 @@
     grid-gap:3%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     .row {
         font-size: 1.5em;
         flex-direction: row;
+    
     }
 }
 

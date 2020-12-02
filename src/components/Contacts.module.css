@@ -14,6 +14,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: calc(100vh - 400px);
+    
 }
 
 .address {

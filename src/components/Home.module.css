@@ -3,18 +3,21 @@
 
 /*setting background image at center fixed position*/
 .container {
-    background: url(../images/Homepage.jpg) no-repeat;
+    background: url(../images/Homepages.jpg) no-repeat;
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
-    padding: 20% 22%;
+  padding:20% 22%;
     text-align: center;
     color: white;
+    float: left;
+  position:absolute;
 }
 
 /*setting text at center fixed position*/
 .home {
-    position: center;
+ 
+    position: relative;
     text-align: center;
     color: white;
 }

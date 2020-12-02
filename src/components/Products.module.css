@@ -8,6 +8,8 @@
     font-size: 1.7em;
     padding: 12.5% 20%;
     color: white;
+    float: left;
+    position: absolute;
 }
 
 .text > h2 {

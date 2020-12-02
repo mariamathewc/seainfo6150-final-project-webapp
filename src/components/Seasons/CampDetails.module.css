@@ -4,7 +4,7 @@
 }
 
 .title {
-    background-color: antiquewhite;
+    background-color: white;
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -14,25 +14,27 @@
 
     .title > h2 {
         padding-top: 5%;
-        color: firebrick;
+        color: #0d401e;
         font-size: 40px;
         text-decoration: underline;
-
+        line-height: 40px;
     }
-.title > h3 {
-   font-size:25px;
-   color: firebrick;
+    .title > h3 {
+        font-size: 25px;
+        color: #0d401e;
+        line-height: 40px;
+    }
 
-}
-
-.title >p {
-    color:saddlebrown;
-    font-size:21px;
-    padding-top:70px;
-
-}
+    .title > p {
+        color: #0d401e;
+        font-size: 21px;
+        padding-top: 70px;
+        line-height: 40px;
+    }
 
 .list {
-    color: saddlebrown;
+    color: #0d401e;
     font-size: 20px;
+    line-height: 40px;
+    font-size:1em;
 }

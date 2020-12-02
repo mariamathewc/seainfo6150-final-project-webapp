@@ -17,11 +17,17 @@ const ProductCheckout = (props) => {
                 <img className={styles.iconDetails} src={location.state.image} alt={location.state.title} />
             </div>
             <div className={styles.column2}>
+                <br />
                 <h2>{location.state.title}</h2>
+                <br />
                 <h4>Quantity: {location.state.quantity.inputValue}</h4>
+                <br />
                 <h4>Toatal Amount: ${amt}</h4>
+                <br />
+                <br />
+                <br />
                 <NavLink className={styles.btn} to='/shipping' exact activeClassName='active'  > <b>Confirm </b> </NavLink>
-
+                
 
             </div>
         </div>
