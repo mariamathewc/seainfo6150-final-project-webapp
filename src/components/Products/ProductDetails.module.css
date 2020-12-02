@@ -24,11 +24,11 @@
     /* Create two equal columns that sits next to each other */
     .column1 {
         flex: 40%;
-        padding: 10px;
-        height: 600px;
+        padding: 5px;
+        height: 500px;
         background-color: black;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 
 
@@ -36,7 +36,7 @@
         flex: 50%;
         padding: 10px;
         padding-left: 3%;
-        height: 600px;
+        height: 500px;
         background-image: linear-gradient(to right, rgba(55, 27, 7, .5), #eee 20% );
         
         font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +47,7 @@
         flex: 50%;
         padding: 10px;
         padding-left: 3%;
-        height: 600px;
+        height: 500px;
         background-image: linear-gradient(to right, rgba(55, 27, 7, .5), #eee 20% );
         box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
         font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +59,7 @@
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 20px;
-        height: 600px;
+        height: 500px;
         background-image: linear-gradient(to right, rgba(55, 27, 7, .5), #eee 20% );
         
         
@@ -71,7 +71,7 @@
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 20px;
-        height: 600px;
+        height: 500px;
         background-image: linear-gradient(to left, rgba(55, 27, 7, .5), #eee 20% );
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
