@@ -13,8 +13,10 @@ const Contacts = (props) => {
                 <img className={styles.iconDetails} src={summer} alt="summer camp" />
                 </div>
 
-        <div className={styles.container}>
-                < div className={styles.address}>
+            <div className={styles.container}>
+                <address >
+                    < div className={styles.address}>
+                  
                     <h3>Address:</h3>
                     <p> 1700 N 1st St</p>
                     <p> San Jose</p>
@@ -25,10 +27,10 @@ const Contacts = (props) => {
                     <p><h3>Email Address:</h3> mathew.m@husky.neu.edu</p>
                     <br />
                     <br />
-                    <p><h3>Contact No:</h3> 510 309 2054</p>
-
+                        <p><h3>Contact No:</h3> 510 309 2054</p>
+                       
                 </div>
-           
+            </address>
           
         </div>
 </div>
