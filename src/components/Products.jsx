@@ -13,7 +13,7 @@ const Products = (props) => {
 		
 			<div className={styles.container}>
 			<div className={styles.text}>
-				<h2>Choose your Products </h2>
+				<h2>Choose your products </h2>
 
 				<ul className={styles.listing}>
 					<li className={styles.formating} >

@@ -11,34 +11,34 @@ const ProductList = (props) => {
 
 
         <li className={styles.container}>
-            <article>
-                <div className={styles.wrapper}>
-                    <div className={styles.container2}>
 
-                        <img className={styles.iconDetails} src={props.product.image} alt={props.product.title} />
+            <div className={styles.row}>
+                <div className={styles.column1}>
 
+                    <img className={styles.iconDetails} src={props.product.image} alt={props.product.title}  />
 
-                        <div className={styles.titlecontainer} >
-                            <h2 className={styles.title}>{props.product.title}</h2>
-
-                            <NavLink className={styles.button}
-                                to={{
-                                    pathname: '/productdetails',
-                                    state: {
-                                        details: props.product
-                                    }
-                                }}> <b>More Details </b> </NavLink>
-                            <br />
-                            <br />
-                            <br />
-
-
-
-                        </div>
-                    </div>
                 </div>
+                <div className={styles.column2}>
+                    <h2 className={styles.title}>{props.product.title}</h2>
+                </div>
+                <div className={styles.column3}>
+                    <NavLink className={styles.button}
+                        to={{
+                            pathname: '/productdetails',
+                            state: {
+                                details: props.product
+                            }
+                        }}> <b>More Details </b> </NavLink>
+                    <br />
+                    <br />
+                    <br />
 
-            </article>
+                </div>
+             </div>
+
+
+
+           
         </li>
 
 

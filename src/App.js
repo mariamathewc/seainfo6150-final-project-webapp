@@ -29,7 +29,7 @@ function App() {
     useEffect(() => {
         const fetchData = async () => {
             // performs a GET request
-            const response = await fetch("https://run.mocky.io/v3/ceb21ca7-6f50-47ff-a523-90e4a08f9dcd");
+            const response = await fetch("https://run.mocky.io/v3/246e6158-8785-4720-98fe-855045d0d8b6");
             const responseJson = await response.json();
             setFetchedData(Object.values(responseJson));
         };

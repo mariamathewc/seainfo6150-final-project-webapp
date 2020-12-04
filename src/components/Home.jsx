@@ -14,6 +14,7 @@ import HomePage from "../images/Homepage.jpg"
 			<div className={styles.container}>
 				<div className={styles.home}>
 					<h2>Travel in Tents</h2>
+					<br />
 					<p>Welcome to Travel in Tents</p>
 					<p>Jump right in and explore our campgrounds</p>
 					<p> Checkout our exclusive outdoor equipments to make your camping fun</p>
