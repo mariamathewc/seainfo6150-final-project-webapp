@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./CampDetails.module.css";
 import { useLocation } from "react-router";
 

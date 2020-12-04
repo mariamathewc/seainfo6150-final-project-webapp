@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="imageContainer"
+    >
+      <img
+        alt="summer camp"
+        class="iconDetails"
+        src="snow.jpg"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <address>
+        <div
+          class="address"
+        >
+          <h3>
+            Address:
+          </h3>
+          <p>
+             1700 N 1st St
+          </p>
+          <p>
+             San Jose
+          </p>
+          <p>
+             California
+          </p>
+          <p>
+             95112
+          </p>
+          <br />
+          <br />
+          <div>
+            <h3>
+              Email Address:
+            </h3>
+             mathew.m@husky.neu.edu
+          </div>
+          <br />
+          <br />
+          <div>
+            <h3>
+              Contact No:
+            </h3>
+             510 309 2054
+          </div>
+        </div>
+      </address>
+    </div>
+  </div>
+</div>
+`;

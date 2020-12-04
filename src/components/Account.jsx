@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from "./Account.module.css";
-import { NavLink } from 'react-router-dom';
 import { useLocation } from "react-router";
+
 
 const Account = (props) => {
 
 	const location = useLocation();
 
     const mail = "mailto:".concat( location.state.email );
-
+    
     return (
         <div className={styles.title}>
         <div className={styles.row}>

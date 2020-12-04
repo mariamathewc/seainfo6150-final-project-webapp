@@ -236,11 +236,11 @@ const Login = (props) => {
                     <p>Gender:</p>
                         <div >
                         <input onChange={handleChangeGenders} type="radio" name="gender" value="Male" id="male"  />
-                            <label for="male">Male </label>
+                        <label htmlFor="male">Male </label>
                         <input onChange={handleChangeGenders} type="radio"  name="gender" value="Female" id="female" />
-                            <label for="female">Female </label>
+                        <label htmlFor="female">Female </label>
                         <input onChange={handleChangeGenders} type="radio"  name="gender" value="Other" id="other" />
-                            <label for="other">Other </label>
+                        <label htmlFor="other">Other </label>
                     </div>
                     <br />
                     <p>Date of Birth:</p>

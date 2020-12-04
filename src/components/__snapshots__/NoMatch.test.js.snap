@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoMatch tests renders correctly 1`] = `
+<div>
+  <div>
+    <img
+      alt="error"
+      class="error404"
+      src="error-404.png"
+    />
+  </div>
+</div>
+`;

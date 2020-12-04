@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar tests renders correctly 1`] = `
+<div>
+  <div
+    class="nav"
+  >
+    <input
+      id="navcheck"
+      type="checkbox"
+    />
+    <div
+      class="navheader"
+    >
+      <div
+        class="navtitle"
+      >
+        Travel in Tents
+      </div>
+    </div>
+    <div
+      class="navbtn"
+    >
+      <label
+        for="navcheck"
+      >
+        <span />
+        <span />
+        <span />
+      </label>
+    </div>
+    <div
+      class="navlinks"
+    >
+      <a
+        aria-current="page"
+        class="active"
+        href="/"
+      >
+        Home 
+      </a>
+      <a
+        href="/products"
+      >
+         Products 
+      </a>
+      <a
+        href="/campgrounds"
+      >
+        Campgrounds  
+      </a>
+      <a
+        href="/login"
+      >
+         Login 
+      </a>
+    </div>
+  </div>
+</div>
+`;

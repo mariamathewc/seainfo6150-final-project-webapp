@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="home"
+    >
+      <h2>
+        Travel in Tents
+      </h2>
+      <br />
+      <p>
+        Welcome to Travel in Tents
+      </p>
+      <p>
+        Jump right in and explore our campgrounds
+      </p>
+      <p>
+         Checkout our exclusive outdoor equipments to make your camping fun
+      </p>
+      <a
+        class="footer"
+        href="/about"
+      >
+         
+        <b>
+          About 
+        </b>
+         
+      </a>
+      <a
+        class="footer"
+        href="/contacts"
+      >
+         
+        <b>
+          Contacts 
+        </b>
+         
+      </a>
+    </div>
+  </div>
+</div>
+`;

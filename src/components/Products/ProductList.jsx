@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./ProductList.module.css";
 import { NavLink } from 'react-router-dom'
+import PropTypes from "prop-types";
 
 const ProductList = (props) => {
 
@@ -49,4 +50,9 @@ const ProductList = (props) => {
 
 }
 
+ProductList.propTypes = {
+    product: PropTypes.object.isRequired
+
+
+};
 export default ProductList

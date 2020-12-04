@@ -24,10 +24,10 @@ const Contacts = (props) => {
                     <p> 95112</p>
                     <br />
                     <br />
-                    <p><h3>Email Address:</h3> mathew.m@husky.neu.edu</p>
+                    <div><h3>Email Address:</h3> mathew.m@husky.neu.edu</div>
                     <br />
                     <br />
-                        <p><h3>Contact No:</h3> 510 309 2054</p>
+                        <div><h3>Contact No:</h3> 510 309 2054</div>
                        
                 </div>
             </address>

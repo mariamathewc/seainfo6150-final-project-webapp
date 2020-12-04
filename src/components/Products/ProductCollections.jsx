@@ -11,16 +11,16 @@ const ProductCollections = (props) => {
 
     let category = "";
 
-    if (selectedProduct == "5") {
+    if (selectedProduct === "5") {
         category = "tents";
     }
-    else if (selectedProduct == "6"){
+    else if (selectedProduct === "6"){
         category = "lights";
     }
-    else if (selectedProduct == "7"){
+    else if (selectedProduct === "7"){
         category = "sleeping gear";
     }
-    else if (selectedProduct == "8"){
+    else if (selectedProduct === "8"){
         category = "packs and bags gear";
     }
     else {

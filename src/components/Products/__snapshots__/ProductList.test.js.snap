@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList tests renders correctly 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="column1"
+      >
+        <img
+          alt="MYRTLE BEACH STATE PARK"
+          class="iconDetails"
+          src="https://media-cdn.tripadvisor.com/media/photo-s/12/2b/54/d1/myrtle-beach-travel-park.jpg"
+        />
+      </div>
+      <div
+        class="column2"
+      >
+        <h2
+          class="title"
+        >
+          MYRTLE BEACH STATE PARK
+        </h2>
+      </div>
+      <div
+        class="column3"
+      >
+        <a
+          class="button"
+          href="/productdetails"
+        >
+           
+          <b>
+            More Details 
+          </b>
+           
+        </a>
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+  </li>
+</div>
+`;

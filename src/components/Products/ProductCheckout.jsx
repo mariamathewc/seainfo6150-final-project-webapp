@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./ProductCheckout.module.css";
 import { NavLink } from 'react-router-dom'
 import { useLocation } from "react-router";

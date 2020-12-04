@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About tests renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="aboutsection"
+    >
+      <h1>
+        <em>
+          CONNECTING GENERATIONS TO THE OUTDOORS
+        </em>
+      </h1>
+    </div>
+    <h2
+      class="heading"
+    >
+      Our Team
+    </h2>
+    <div
+      class="row"
+    >
+      <div
+        class="column"
+      >
+        <div
+          class="card"
+        >
+          <img
+            alt="John"
+            class="imageIcon"
+            src="business1.jpg"
+          />
+          <div
+            class="container"
+          >
+            <h2>
+              John Doe
+            </h2>
+            <p>
+              Email: 
+              <a
+                href="mailto:john@example.com"
+              >
+                john@example.com
+              </a>
+            </p>
+            <br />
+            <p>
+              <button
+                class="button"
+              >
+                CEO & Founder
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="column"
+      >
+        <div
+          class="card"
+        >
+          <img
+            alt="Mike"
+            class="imageIcon"
+            src="business4.jpg"
+          />
+          <div
+            class="container"
+          >
+            <h2>
+              Mike Ross
+            </h2>
+            <p>
+              Email: 
+              <a
+                href="mailto:mike@example.com"
+              >
+                mike@example.com
+              </a>
+            </p>
+            <br />
+            <p>
+              <button
+                class="button"
+              >
+                Vice President
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="column"
+      >
+        <div
+          class="card"
+        >
+          <img
+            alt="Jane"
+            class="imageIcon"
+            src="business3.jpg"
+          />
+          <div
+            class="container"
+          >
+            <h2>
+              Jane Doe
+            </h2>
+            <p>
+              Email: 
+              <a
+                href="mailto:jane@example.com"
+              >
+                jane@example.com
+              </a>
+            </p>
+            <br />
+            <p>
+              <button
+                class="button"
+              >
+                Sales Manager
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

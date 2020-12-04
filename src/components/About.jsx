@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.css";
-import summer from "../images/snow.jpg"
 import b1 from "../images/business1.jpg"
 import b2 from "../images/business4.jpg"
 import b3 from "../images/business3.jpg"
