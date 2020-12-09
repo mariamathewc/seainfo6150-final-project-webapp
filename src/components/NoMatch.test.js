@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 
-describe("NoMatch tests", () => {
+describe("NoMatch test", () => {
 	it("renders correctly", () => {
 		const { container } = render(<BrowserRouter><NoMatch /></BrowserRouter>);
 		expect(container).toMatchSnapshot();

@@ -21,6 +21,8 @@ const ProductList = (props) => {
                 </div>
                 <div className={styles.column2}>
                     <h2 className={styles.title}>{props.product.title}</h2>
+                    <br />
+                    <h2 className={styles.title}>Price: {props.product.price}</h2>
                 </div>
                 <div className={styles.column3}>
                     <NavLink className={styles.button}

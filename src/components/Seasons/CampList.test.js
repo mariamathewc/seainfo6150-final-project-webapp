@@ -19,7 +19,7 @@ const camp =
 }
     ;
 
-describe("CampList tests", () => {
+describe("CampList test", () => {
 	it("renders correctly", () => {
 		const { container } = render(<BrowserRouter><CampList camp={camp}/></BrowserRouter>);
 		expect(container).toMatchSnapshot();

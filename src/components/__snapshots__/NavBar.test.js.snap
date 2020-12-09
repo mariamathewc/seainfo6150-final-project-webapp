@@ -1,60 +1,72 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavBar tests renders correctly 1`] = `
+exports[`NavBar test renders correctly 1`] = `
 <div>
-  <div
-    class="nav"
+  <nav
+    class="navbar"
   >
-    <input
-      id="navcheck"
-      type="checkbox"
-    />
-    <div
-      class="navheader"
+    <a
+      aria-current="page"
+      class="navbar-logo active"
+      href="/"
     >
-      <div
-        class="navtitle"
-      >
-        Travel in Tents
-      </div>
-    </div>
+      Travel in Tents
+      <i
+        class="fas fa-campground"
+      />
+    </a>
     <div
-      class="navbtn"
+      class="menu-icon"
     >
-      <label
-        for="navcheck"
-      >
-        <span />
-        <span />
-        <span />
-      </label>
+      <i
+        class="fas fa-bars"
+      />
     </div>
-    <div
-      class="navlinks"
+    <ul
+      class="nav-menu"
     >
-      <a
-        aria-current="page"
-        class="active"
-        href="/"
+      <li
+        class="nav-item"
       >
-        Home 
-      </a>
-      <a
-        href="/products"
+        <a
+          aria-current="page"
+          class="nav-links active"
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="nav-item"
       >
-         Products 
-      </a>
-      <a
-        href="/campgrounds"
+        <a
+          class="nav-links"
+          href="/products"
+        >
+          Products
+        </a>
+      </li>
+      <li
+        class="nav-item"
       >
-        Campgrounds  
-      </a>
-      <a
-        href="/login"
+        <a
+          class="nav-links"
+          href="/campgrounds"
+        >
+          Campgrounds
+        </a>
+      </li>
+      <li
+        class="nav-item"
       >
-         Login 
-      </a>
-    </div>
-  </div>
+        <a
+          class="nav-links"
+          href="/login"
+        >
+          Login
+        </a>
+      </li>
+    </ul>
+  </nav>
 </div>
 `;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Login tests renders correctly 1`] = `
+exports[`Login test renders correctly 1`] = `
 <div>
   <div
     class="row"

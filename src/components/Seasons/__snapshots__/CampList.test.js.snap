@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CampList tests renders correctly 1`] = `
+exports[`CampList test renders correctly 1`] = `
 <div>
   <li
     class="container"

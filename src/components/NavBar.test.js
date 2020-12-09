@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./NavBar.jsx";
+import Navbar from "./Navbar.jsx";
 import { render } from "@testing-library/react";
 import { BrowserRouter } from 'react-router-dom';
 
@@ -257,7 +257,7 @@ const data = {
 	]
 }
 
-describe("NavBar tests", () => {
+describe("NavBar test", () => {
 	it("renders correctly", () => {
 		const { container } = render(<BrowserRouter><Navbar data={data} /></BrowserRouter>);
 		expect(container).toMatchSnapshot();

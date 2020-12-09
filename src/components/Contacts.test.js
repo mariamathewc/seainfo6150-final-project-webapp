@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 
-describe("Home tests", () => {
+describe("Contacts test", () => {
 	it("renders correctly", () => {
 		const { container } = render(<BrowserRouter><Contacts /></BrowserRouter>);
 		expect(container).toMatchSnapshot();

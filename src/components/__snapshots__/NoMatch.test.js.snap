@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NoMatch tests renders correctly 1`] = `
+exports[`NoMatch test renders correctly 1`] = `
 <div>
   <div>
     <img

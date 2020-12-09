@@ -5,12 +5,17 @@ import { useLocation } from "react-router";
 
 const ProductDetails = (props) => {
     const [inputValue, setinputValue] = useState(1);
-
+    const [placeinputValue, setplaceinputValue] = useState("1");
 
     let handleChange = (e) => {
        
-        if (e.target.value < 0 || e.target.value > 30) {
+        if (e.target.value < 0 ) {
             setinputValue(1);
+        }
+        else if (e.target.value > 30) {
+            setplaceinputValue("Quantity must be less than 31");
+            setinputValue("");
+
         }
         else {
             setinputValue(e.target.value);
@@ -77,9 +82,10 @@ const ProductDetails = (props) => {
                         id='inputValue'
                         className={styles.input}
                         type='number'
-                        placeholder='0'
+                        placeholder={placeinputValue}
                         value={inputValue}
                         onChange={handleChange}
+                        
                         
                     />
                    

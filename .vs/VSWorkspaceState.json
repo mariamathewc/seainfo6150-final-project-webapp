@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\components\\Products",
+    "\\src\\components\\Products\\__snapshots__",
+    "\\src\\components\\Seasons"
   ],
-  "SelectedNode": "\\src\\components\\Account.test.js",
+  "SelectedNode": "\\src\\components\\Products\\ProductCheckout.test.js",
   "PreviewInSolutionExplorer": false
 }

@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 
-describe("ProductShipping tests", () => {
+describe("ProductShipping test", () => {
 	it("renders correctly", () => {
 		const { container } = render(<BrowserRouter><ProductShipping  /></BrowserRouter>);
 		expect(container).toMatchSnapshot();

@@ -9,7 +9,7 @@ const mockLocation = {
 }
 
 
-describe("Product Collection tests", () => {
+describe("Product Collection test", () => {
 	it("renders correctly", () => {
 		const { container } = jest.spyOn(routeData, 'useLocation').mockReturnValue(mockLocation);
 		expect(container).toMatchSnapshot();
