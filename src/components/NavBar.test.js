@@ -259,7 +259,7 @@ const data = {
 
 describe("NavBar tests", () => {
 	it("renders correctly", () => {
-		const { container } = render(<BrowserRouter><NavBar data={data} /></BrowserRouter>);
+		const { container } = render(<BrowserRouter><Navbar data={data} /></BrowserRouter>);
 		expect(container).toMatchSnapshot();
 	});
 });

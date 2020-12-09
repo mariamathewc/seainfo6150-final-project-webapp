@@ -1,18 +1,21 @@
 import React from "react";
-import Campgrounds from "./Campgrounds.jsx";
+import Products from "./Products.jsx";
 import { render } from "@testing-library/react";
 import routeData from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 
-const mockLocation = {
-	pathname: 'localhost:3000/products',
-
-}
-
-
-describe("Products tests", () => {
+describe("Product tests", () => {
 	it("renders correctly", () => {
-		const { container } = jest.spyOn(routeData, 'useLocation').mockReturnValue(mockLocation);
+		const { container } = jest.mock('react-router-dom', () => ({
+			...jest.requireActual('react-router-dom'),
+			useLocation: jest.fn()
+			
+		}));
 		expect(container).toMatchSnapshot();
-	});
+	})
+
+
 });
+
+
 

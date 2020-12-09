@@ -2,7 +2,8 @@ import React, { useEffect, useState} from "react";
 import { Switch, Route} from "react-router-dom";
 
 import { isEmpty } from "lodash";
-import NavBar from './components/NavBar.jsx';
+//import NavBar from './components/NavBar.jsx';
+import Navbar1 from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import Contacts from './components/Contacts.jsx';
 import Account from './components/Account.jsx';
@@ -45,7 +46,7 @@ function App() {
 
             {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-            <NavBar data={fetchedData} />
+            <Navbar1 data={fetchedData} />
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route exact path="/login"><Login /></Route>

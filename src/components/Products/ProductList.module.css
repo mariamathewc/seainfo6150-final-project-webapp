@@ -31,7 +31,7 @@
     flex: 40%;
     padding: 5px;
     height: 350px;
-    
+    padding: 5% 5% 5% 5%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -40,7 +40,7 @@
     .column1 {
         flex: 40%;
         padding: 5px;
-        height: 250px;
+        height: 220px;
         
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -95,12 +95,12 @@
 
 
 .button {
-    background-color: saddlebrown;
+    background-color: green;
     font-size: 15px;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     width: 25%;
-    border: 1px solid brown;
+    border: 1px solid green;
     color: black;
     text-decoration: none;
     margin-left: 30%;
@@ -109,7 +109,7 @@
 
 @media (min-width: 1000px) {
     .button {
-        background-color: saddlebrown;
+        background-color: green;
         font-size: 15px;
         padding: 10px 20px 10px 20px;
         border-radius: 10px;
