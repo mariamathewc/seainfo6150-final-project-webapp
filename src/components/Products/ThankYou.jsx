@@ -10,7 +10,7 @@ const ThankYou = (props) => {
 
         <div className={styles.row}>
             <div className={styles.texts}>
-                <h1><em>Thank you for shopping at Travel and Tents</em></h1>
+                <h1><em>Thank you for shopping at Travel in Tents</em></h1>
                 </div>
             
         </div>
